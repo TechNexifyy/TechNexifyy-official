@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100;
+}
+
+@font-face  {
+  font-family: "regular";
+  src: local("IBMPlexSansThai-Regular"),
+  url('./assets/fonts/IBMPlexSansThai-Regular.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "medium";
+  src: local("IBMPlexSansThai-Medium"),
+  url('./assets/fonts/IBMPlexSansThai-Medium.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "semibold";
+  src: local("IBMPlexSansThai-SemiBold"),
+  url('./assets/fonts/IBMPlexSansThai-SemiBold.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "bold";
+  src: local("IBMPlexSansThai-Bold"),
+  url('./assets/fonts/IBMPlexSansThai-Bold.ttf') format("truetype");
+}
+
+@layer utilities {
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+  /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+}
