@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/TechNexifyy.github.io/TechNexifyy.github.io",
+  "homepage": "https://github.com/TechNexifyy.github.io/TechNexifyy-official",
   "name": "technexify-frontend",
   "private": true,
   "version": "0.0.0",
@@ -16,6 +16,7 @@
     "@material-tailwind/react": "^2.1.10",
     "@react-icons/all-files": "^4.1.0",
     "@reduxjs/toolkit": "^2.3.0",
+    "@types/gh-pages": "^6.1.0",
     "axios": "^1.7.7",
     "prop-types": "^15.8.1",
     "react": "^18.3.1",
@@ -37,6 +38,7 @@
     "eslint": "^9.13.0",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.13",
+    "gh-pages": "^6.2.0",
     "globals": "^15.11.0",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.14",
